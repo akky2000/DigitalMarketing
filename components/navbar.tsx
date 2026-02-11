@@ -109,11 +109,12 @@ export default function Navbar() {
               >
                 <Link
                   href={item.link}
-                  className={`flex items-center gap-1 px-4 py-2 rounded-md transition-all duration-300 ${
-                    pathname === item.link
-                      ? "bg-[#141a46] text-white"
-                      : "text-gray-700 hover:text-[#1d4ed8]"
-                  }`}
+                 className={`flex items-center gap-1 px-4 py-2 rounded-md transition-all duration-300 ${
+  pathname === item.link
+    ? "bg-[#141a46] text-white"
+    : "text-gray-700 hover:bg-[#141a46] hover:text-white"
+}`}
+
                 >
                   {item.name}
                   {item.dropdown && <ChevronDown size={14} />}
