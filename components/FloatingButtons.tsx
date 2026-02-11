@@ -56,7 +56,7 @@ export default function FloatingButtons() {
         <img
           src="/whatsapp.png"
           alt="whatsapp"
-          className="w-12 h-20 object-contain"
+          className="w-8 h-18 object-contain"
         />
       </a>
 

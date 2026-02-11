@@ -96,17 +96,19 @@ export default function SEOResultsSlider() {
         </div>
 
         {/* NAVIGATION BUTTONS */}
-        <div className="absolute left-6 top-1/2 z-10 -translate-y-1/2 hidden lg:block">
-          <div className="swiper-button-prev-custom bg-gray-500 w-12 h-12 rounded-full flex items-center justify-center cursor-pointer hover:bg-gray-600 transition">
-            <ChevronLeft className="text-white" />
-          </div>
-        </div>
+      <div className="absolute left-3 lg:left-6 top-[65%] lg:top-1/2 z-10 -translate-y-1/2">
+  <div className="swiper-button-prev-custom bg-gray-500 w-10 h-10 lg:w-12 lg:h-12 rounded-full flex items-center justify-center cursor-pointer hover:bg-gray-600 transition shadow-md">
+    <ChevronLeft className="text-white" size={20} />
+  </div>
+</div>
 
-        <div className="absolute right-6 top-1/2 z-10 -translate-y-1/2 hidden lg:block">
-          <div className="swiper-button-next-custom bg-gray-500 w-12 h-12 rounded-full flex items-center justify-center cursor-pointer hover:bg-gray-600 transition">
-            <ChevronRight className="text-white" />
-          </div>
-        </div>
+
+       <div className="absolute right-3 lg:right-6 top-[65%] lg:top-1/2 z-10 -translate-y-1/2">
+  <div className="swiper-button-next-custom bg-gray-500 w-10 h-10 lg:w-12 lg:h-12 rounded-full flex items-center justify-center cursor-pointer hover:bg-gray-600 transition shadow-md">
+    <ChevronRight className="text-white" size={20} />
+  </div>
+</div>
+
 
         {/* SLIDER */}
         <Swiper

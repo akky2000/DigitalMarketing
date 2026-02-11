@@ -34,7 +34,8 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative w-full min-h-screen flex items-center justify-center overflow-hidden bg-[#061830]">
+   <section className="relative w-full h-[85vh] lg:h-[90vh] flex items-center justify-center overflow-hidden bg-[#061830]">
+
 
       {/* Diagonal Pattern Background */}
       <div className="absolute inset-0 bg-[linear-gradient(135deg,rgba(255,255,255,0.05)_1px,transparent_1px)] bg-[size:30px_30px]" />
